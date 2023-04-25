@@ -14,7 +14,7 @@ Closing Project "Capstone" at EMR Cluster &amp; Spark on Hadoop (AWS) 24.04.2023
 I am running my Capstone project with public data from "Inside Airbnb", in specific from Mexico City. 
 All the files required are downloadable from [https://insideairbnb.com](http://insideairbnb.com/get-the-data/). 
 
-![mexico-city](images/IMAGE-Airbnb-Mexico-City-ZoomedIn.jpg)
+![mexico-city](images/IMAGE-Airbnb-Mexico-City-ZoomedIn.png)
 
 I select to setup my project with `Spark` (an EMR at Amazon Web Services), a `JUPITER Workbook` (steps and results are directly documented) and for a direct execution of the ETL an `etl.py` Python file will be available.
 At the execution of the JUPITER Workbook it will be `pyspark` used, instead of using Redshift and Airflow.
@@ -29,7 +29,7 @@ The Airbnb dataset will be updated monthly, so it may not be neccessary to build
 
 The star schema does consist of 1 *Fact* table (booking) and 4 *Dimension* tables (calendar, listing, neighbourhoods and reviews). The 4 source files in CSV format of **calendar**, **listings**, **neighbourhooods** as well of **reviews** are on the (local:) Udacity Workspace or (online:) at the S3 on AWS uploaded.
 
-![data-model](images/IMAGE-Data-Model.jpg)
+![data-model](images/IMAGE-Data-Model.png)
 
 
 ## Datasets used
