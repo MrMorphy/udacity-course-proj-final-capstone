@@ -1,7 +1,7 @@
-# udacity-course-proj-final-capstone :earth_america:
+# udacity-course-proj-final-capstone 🌎:
 Closing Project "Capstone" at EMR Cluster &amp; Spark on Hadoop (AWS) 24.04.2023 for Udacity Data Engineer Nanodegree.
 
-## Summary
+## Summary ℹ️
 * [Introduction](#introduction)
 * [Data Schema](#data-schema)
 * [Files list](#files-list)
@@ -9,12 +9,12 @@ Closing Project "Capstone" at EMR Cluster &amp; Spark on Hadoop (AWS) 24.04.2023
 * [Getting Started](#getting-started)
 
 
-## Introduction :Pencil2:
+## Introduction ✏️:
 
 I am running my Capstone project with public data from "Inside Airbnb", in specific from Mexico City. 
-All the files required are downloadable from https://insideairbnb.com. 
+All the files required are downloadable from [https://insideairbnb.com](http://insideairbnb.com/get-the-data/). 
 
-![mexico-city](images/IMAGE-Airbnb-Mexico-City-Zoomedin.jpg)
+![mexico-city](images/IMAGE-Airbnb-Mexico-City-ZoomedIn.jpg)
 
 I select to setup my project with `Spark` (an EMR at Amazon Web Services), a `JUPITER Workbook` (steps and results are directly documented) and for a direct execution of the ETL an `etl.py` Python file will be available.
 At the execution of the JUPITER Workbook it will be `pyspark` used, instead of using Redshift and Airflow.
@@ -23,7 +23,7 @@ The Airbnb dataset will be updated monthly, so it may not be neccessary to build
 
 [top](#summary)
 
-## Data Schema :data:
+## Data Schema ✨:
 
 ### Schema design and ETL pipeline
 
@@ -37,11 +37,11 @@ The datasets used are retrieved from the s3 bucket and are in CSV format. There 
 <font color="red">Mas mas y otro poquito mas...</font>
 
 
-## Motivation :pencil2:
+## Motivation ✏️:
 The intention of this project is at the end, have combined tables as source for a 'Self Service Report'-Dashboard done with PowerBI. 
 
 
-## Files list :paper:
+## Files list 📎:
 
 Use this files for creation of the database Sparkifydb withhin the JUPITER Workplace with the required tables.  
 
@@ -51,13 +51,13 @@ Following is a list or required files to execute the project:
 * **README.md** - this file as project description
 * **Capstone-Notebook.ipynb** - Jupyter Workbook: Data Exploration as well an easy execution of ALL steps and scripts
 
-## Conclusion :checkered_flag:
+## Conclusion 🏁:
 
 
 
 [top](#summary)
 
-## Getting Started :book:
+## Getting Started 📖:
 
 ### Prerequisites
 
@@ -98,7 +98,7 @@ To create an Elastic Map Reduce (EMR) data lake on AWS, use the following steps:
 [top](#summary)
 
 
-## Author :male:detective:
+## Author 🕵️‍♂️:
 
 Best regards  
 UDACITY [Data-Engineering]  
